@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Animal Shelter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <p>Tel: 0176 31794576</h2>
+  </header>
+  <div class="notFooter">
+
+  <div class="navBarAll">
+    <ul class="navBar" id="navbar">
+      <li><a class="active" href="AnimalShelter.html">HOME</a></li>
+      <li class="dropdown"><a class="dropbtn">ÜBER UNS</a>
+        <div class="dropdown-content">
+          <a href="#">Über das Tierheim</a>
+          <a href="Adopt.html">Tiere adoptieren</a>
+          <a href="Mitmachen.html
+          ">Mitmachen</a>
+        </div>
+      </li>
+      <li class="dropdown"><a href="Adopt.html" class="dropbtn">ADOPTION</a>
+        <div class="dropdown-content">
+          <a href="Dogs.php">Hunde</a>
+          <a href="#">Katzen</a>
+          <a href="#">Andere Tiere</a>
+        </div>
+      </li>
+      <li class="dropdown"><a class="dropbtn">SCHON ADOPTIERT</a>
+        <div class="dropdown-content">
+          <a href="#">2021</a>
+          <a href="#">Kalender</a>
+          <a href="#">Galerie</a>
+        </div>
+      </li>
+      <li class="dropdown"><a class="dropbtn" href="Einloggen.html">EINLOGGEN</a>
+      </li>
+    </ul>
+    </div>
+
+    <div class="contentColumn">
+      </br>
+
+      <div class="center">
+        <h1>REGISTRIERUNG</h1>
+        <form action='Mitmachen.php' method="post">  
+       
+          <div>
+            <div class="form_out" style="display: inline-block">
+              <label for="fname">Vorname:</label></br>
+              <input class="form" type="text" id="fname" name="fname">
+            </div>
+            <div style="display: inline-block">
+              <label for="nname">Nachname:</label></br>
+              <input class="form" type="text" id="nname" name="nname"></br>
+            </div>
+          </div>
+          <div>
+            <div class="form_out" style="display: inline-block">
+              <label for="email">Email-Adresse:</label></br>
+              <input class="form" type="text" id="email" name="email"></br></br>
+            </div>
+            <div style="display: inline-block">
+              <label for="pass">Passwort:</label></br>
+              <input class="form" type="password" id="pass" name="pass"></br></br>
+            </div>
+          </div>       
+          <div>
+            <div class="form_out" style="display: inline-block">
+              <label for="tel">Telefonnummer:</label></br>
+              <input class="form" type="text" id="tel" name="tel"></br>
+            </div>
+            <div style="display: inline-block">
+              <label for="adresse">Adresse:</label></br>
+              <input class="form" type="text" id="adresse" name="adresse">
+            </div>
+          </div>
+
+          <div>
+            <div class="form_out" style="display: inline-block">
+              <label for="stadt">Stadt:</label></br>
+              <input class="form" type="text" id="stadt" name="stadt">
+            </div>
+            <div style="display: inline-block">
+              <label for="plz">PLZ:</label></br>
+              <input class="form" type="text" id="plz" name="plz"></br>
+            </div>
+          </div>
+          <div>
+            <div style="display: inline-block">
+              <label for="land">Land:</label></br>
+              <input class="form" type="text" id="land" name="land"></br></br>
+            </div>
+          </div>                  
+          <input class="butt2" type="submit" name="gesendet">
+          <input class="butt2" type="reset">
+         
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h2>ANIMAL SHELTER: "Sunshine"</h2>
+    <p>Autor: Ingrid Ugussi Vukman</p>
+    <p>E-Mail: ingrid_ugussi_vukman@yahoo</p>
+  </footer>
+
+  <script>   
+
+    setInterval(myFunction, 1)
+
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+  </script>
+
+</body>
+
+</html>
