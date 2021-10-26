@@ -1,3 +1,13 @@
+<?php
+
+   session_start();
+
+   if(!isset($_SESSION["fname"])){
+     exit("<p>Kein Zugang<br><a href='Einloggen.php'>" . "Zum Login</a></p>");
+   }
+
+   ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +46,7 @@ function send(aktion, id){
 <?php
    $con = new mysqli("", "root", "janina", "tierheim");
    $od = "ORDER BY HundCode";
-
+   echo "Benutzer: " .  $_SESSION["fname"];
        
    if(isset($_POST["aktion"]))
    {
@@ -167,6 +177,9 @@ function send(aktion, id){
    $con->close();
 
    ?>
+
+   <p><a href="Einloggen_2.php">Zur Intro-Seite</a></p>
+   <p><a href="Einloggen.php">Logoff</a></p>
 
 </body>
 

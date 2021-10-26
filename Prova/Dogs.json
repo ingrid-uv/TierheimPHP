@@ -1,0 +1,72 @@
+[
+  {
+   "foto": "Pictures/Dog0.jpg",
+   "name": "Nala",
+   "tiercode": "H0065",
+   "geburtstag": "03.04.2021",
+   "geschlecht": "Weiblich",
+   "ankunft": "20.06.2021",
+   "rasse": "Mischling",
+   "herkunft": "Kroatien",
+   "charakter": "Verträglich mit Hunden und Hündinen",
+   "gesundheitszustand": "Geimpft, Gechipt, Entwurmt, Kastriert",
+   "beschreibung": [
+     " Nala wurde vermutlich angefahren und in einem sehr schlechten Zustand von unseren Tierschutzfreunden nahe Pula aufgenommen. Inzwischen hat er sich gut erholt. ",
+     "Nala muss schon längere Zeit ohne menschlichen Kontakt gelebt haben. Er zeigt sich derzeit noch sehr zurückhalten und bevorzugt den Kontakt zu seinen Artgenossen. ",
+     "Er lebt in der Auffangstation mit einer Hündin zusammen, das klappt gut. Am menschlichen Kontakt wird gearbeitet. ",
+     "Derzeit ist Nala nur an hundeerfahrene Menschen zu vermitteln die Nala die Zeit geben die er braucht um den Menschen zu vertrauen."
+   ]
+  },
+  {
+   "foto": "Pictures/Dog1.jpg",
+   "name": "Nero & Lili",
+   "tiercode": "H0066",
+   "geburtstag": "03.06.2020",
+   "geschlecht": "Weiblich, Männlich",
+   "ankunft": "20.08.2021",
+   "rasse": "Mischling",
+   "herkunft": "Kroatien",
+   "charakter": "Verträglich mit Hunden und Hündinen und Katzen",
+   "gesundheitszustand": "Geimpft, Gechipt, Entwurmt, Kastriert",
+   "beschreibung": [
+     " Nero (links) und Lili (rechts) sind Geschwister. Die beiden wurden im Sommer von unserem Tierschutzfreund in unser Tierheim in Pula gebracht. ",
+     "Sie sind verspielt und neugierig, aber vorsichtig mit fremden Menschen. ",
+     "Nero und Lili brauchen eine erfahrene Pflegefamilie, um sich zu entwickeln und zu lernen. "    
+   ]
+  },
+  {
+   "foto": "Pictures/Dog2.jpg",
+   "name": "Frodo",
+   "tiercode": "H0067",
+   "geburtstag": "03.05.2021",
+   "geschlecht": "Männlich",
+   "ankunft": "20.07.2021",
+   "rasse": "Mischling",
+   "herkunft": "Kroatien",
+   "charakter": "Verträglich mit Hunden und Hündinen",
+   "gesundheitszustand": "Geimpft, Gechipt, Entwurmt, Kastriert",
+   "beschreibung": [
+     " Er wurde ganz allein neben Motovun in Istrien gefunden. ",
+     "In der Pflegestelle in Pula hat er sich gut erholt und ist ein verspielten Welpen geworden. ",
+     "Er ist katzenfreundlich und liebt den Kontakt mit Kindern. "
+   ]    
+  },
+  {
+    "foto": "Pictures/Dog3.jpg",
+    "name": "Oreo",
+    "tiercode": "H0068",
+    "geburtstag": "23.01.2020",
+    "geschlecht": "Männlich",
+    "ankunft": "20.07.2021",
+    "rasse": "Mischling",
+    "herkunft": "Kroatien",
+    "charakter": "Verträglich mit Hunden und Hündinen",
+    "gesundheitszustand": "Geimpft, Gechipt, Entwurmt, Kastriert",
+    "beschreibung": [
+      " Oreo ist im Sommer zu uns gekommen, weil der Besitzer krank war.  ",
+      "Oreo braucht ein bischen Zeit, um Vertrauen zu fassen, nachdem ist er wirchlich ein warmes Herz.  ",
+      "Er mag Hupfen und Rennen, und ist sehr freundlich mit anderen Hunden.  ",
+      "Er braucht nicht stundenlange Spaziergänge und außerordentliche Outdooraktivitäten."
+    ]    
+   }
+]

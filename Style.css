@@ -74,6 +74,25 @@ ul.navBar li a.active {
   color: white;
 }
 
+.doubleDiv1 {
+  flex: 1;
+  padding-right: 20px;
+
+}
+
+.doubleDiv1 p {
+  font-size: 25px;
+}
+
+.doubleDiv2 {
+  flex: 1;
+  margin: 25px;
+}
+
+.doubleDiv2 img {
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
   /* ul.navBar li {
     float: none;
@@ -314,6 +333,9 @@ div.desc {
     float: left;
     width: 80%;
   }
+  .doubleDiv1 p {
+    font-size: 12px;
+  }
 }
 
 img {
@@ -439,6 +461,18 @@ img {
   padding: 10px 30px;
 }
 
+.center_b {
+  margin: auto;
+  width: 60%;
+  height: 500px;
+  font-size: 20px;
+  /* background-color: linen; */
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+
+}
+
 .text1 {
   font-size: 30px;
   text-align: center;
@@ -467,6 +501,14 @@ img {
     font-size: 8px;
     width: 100%;
   }
+.center_b {
+  width: 80%;
+  height: auto;
+}
+.doubleDiv1 p {
+  font-size: 20px;
+}
+
 }
 
 footer {
